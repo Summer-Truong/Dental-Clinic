@@ -1,1 +1,1 @@
-# Dental-Clinic
+Designed and developed a responsive website for a dental clinic, featuring a main homepage and supporting subpages. The site is fully optimized for various devices, including desktops, tablets, and smartphones. The layout, content structure, and navigation were crafted to enhance user experience, maintain professional aesthetics, and ensure accessibility across screen sizes.

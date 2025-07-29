@@ -1,0 +1,371 @@
+@charset "utf-8";
+body{margin: 0;padding: 0; font-family: 'Roboto', sans-serif; }
+.topbar{height: 50px;background-color: #056CB6;line-height: 50px;color: white;}
+.canh-phai{float: right;}
+ 
+/*phần manu*/
+
+
+
+.navbar{height: 100px;font-size:17px; padding-top: 10px;font-weight: bold;z-index: 10;}
+ .navbar-default {   
+  background-color: #E5E5E5;
+	 margin: 0;
+   
+}
+ .navbar-default .navbar-brand {  
+/*	 //logo*/
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+
+.navbar-default .navbar-text {
+  color: #ecdbff;
+	 
+}
+.navbar-default .navbar-nav{
+	margin-top: 15px;
+	 margin-left: 70px;
+}
+.navbar-default .navbar-nav > li > a { 
+/*	//cho the a trên menu*/
+  color: #666666;
+	 
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+	background-color: #056CB6;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {  
+/*	//cho menu cap 1*/
+  background-color: #056CB6;
+	border-color: #FFC113;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a { 
+/*	//text cho menu cap 1*/
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,   
+/*// hover menu cap 1*/
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #666666;
+  background-color: #FFC113;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider { 
+/*	// đường phân chia trong menu cấp 1*/
+  background-color: #FFC113;
+}
+.navbar-default .navbar-toggle {  
+/*	// nut 3 gach trong phone*/
+  border-color: #056CB6;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #056CB6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;margin-top: 5px;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+ 
+/*xong nv*/
+main{min-height: 500px;background-color: #E5E5E5;font-size: 15px;z-index: 0;}
+#about .nd-about{
+	padding: 50px 0px;
+}
+ 
+.nd-about h3{
+	font-weight: bold;margin-bottom: 30px;
+}
+.nd-about p{margin-bottom: 30px;}
+.nd-about ul{ margin-bottom: 30px;}
+.nd-about botton{border-radius: 8px;}
+.text{
+	text-align: center;padding: 0 300px ;margin-bottom: 10px;padding-top: 30px;
+}
+.nd-text h3{font-weight:bold;}
+.nd-banner{
+	text-align: center;padding: 10px;margin: 15px;
+	background-color: white;
+}
+.nd-banner h4{
+	font-weight: bold;padding: 8px;
+}
+.nd-banner h4:hover{text-decoration: none;}
+
+ 
+.nd{
+	padding: 20px;
+}
+.btnn{text-align: center;padding: 30px;}
+ 
+/*PHAN CẢM NHẬN*/
+#camnhan .carousel-inner > .item{min-height: 410px;background-color:white;}
+ 
+#camnhan h3{color: blue;
+padding-bottom: 30px;}
+ 
+#camnhan .carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+	
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color:#000 ;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.5px solid #0C0C0C;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: yellow;
+}
+ #camnhan .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+  padding-bottom: 20px;
+  color: black;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+/* xong camnhan*/
+.nd-img{text-align: center;}
+
+.right-left{margin-top:50px;}
+.nd-text h3{font-weight: bold;}
+.nd-text p{font-size: 14px;padding-bottom: 100px;}
+/*phan dichvu*/
+ 
+.banner1{background-image: url("../image/pageheader.png");background-repeat: no-repeat;min-height: 300px;
+margin-bottom: 30px;}
+.banner1 .nd{
+	color: white;margin-top: 30px;margin-left: 100px;
+}
+.banner1 .nd h3{font-weight: bold;}
+.banner1 .nd button{margin-top: 50px;}
+#banner{margin-top: 30px;margin-bottom: 30px;}
+.nd1{margin-bottom: 60px;}
+.nd1 h4{font-weight: bold;padding-top: 20px;}
+/*nd sidebar*/
+.nd-sidebar{background-color: white;padding: 15px;margin: 20px 0;}
+.nd-sidebar h4{font-weight: bold;}
+.nd-sidebar li a{
+	background: url("../image/123.png")no-repeat;background-position: left center;
+	padding-left: 25px;
+}
+.nd-sidebar li a:hover{
+	background: url( "../image/mui tenx.png")no-repeat;background-position: left center;
+	padding-left: 25px;
+}
+/*col8 */
+.nd-chinh{
+	padding: 5px;margin: 20px 0;
+}
+.nd-chinh h3{text-decoration: none;}
+.nd-chinh h3 a:hover{color: #F2C94C;}
+
+.nd-chinh .bg-trang{background: white;padding: 10px;text-align: center;margin-bottom: 20px;}
+.nd-chinh h4{font-weight: bold; }
+
+.bg-trang {
+	 margin: 50px;text-align: center;
+}
+.bg-trang p{
+	padding-top: 20px;font-weight: bold;
+}
+#comments1 {height: 100px; }
+.comments{margin-bottom: 40px;margin-top: 40px;}
+/* phan liên hệ*/
+.nd-map{margin-bottom: 50px;}
+.nd-map h3{font-weight: bold;}
+
+/*phần hình ảnh*/
+.nd-img{padding: 30px;}
+/*dịch vụ rang su*/
+.nd-cuoi{
+	 margin: 0px;padding-left: 30px; border: 2px rgba(31,31,31,1.00);
+}
+
+
+/*PHAN FOOOTER*/
+footer{
+	min-height: 300px;background:#056cb6 ;color: white; 
+}
+.nd-footer{padding:20px 0px;font-size: 12px; }
+.nd-footer img{margin-botton:20px;margin-bottom: 60px;}
+.nd-footer p{margin-bottom: 40px;}
+.nd-footer botton{border:none;padding:20px 25px;border-radius:8px; }
+.nd-footer h4{font-weight: bold;}
+.nd-footer .nav > li {
+  position: relative;
+  display: block;
+	color: white;
+}
+.nd-footer .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;color: white;
+	 
+}
+.nd-footer .nav > li > a:hover,
+.nd-footer .nav > li > a:focus {
+  text-decoration: none;
+  color:yellow;
+	background-color: #056CB6;
+}
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #056cb6;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #056cb6;
+    background-color: #ffc113;
+  }
+	.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #ecf0f1;
+}
+	.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #056cb6;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #056cb6;
+  background-color: #ffc113;
+}
+	
+}
+ 
+ 
+ 
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #056cb6;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #056cb6;
+    background-color: #ffc113;
+  }
+	.navbar-default .navbar-brand {
+  padding-left: 300px;
+}
+	.navbar-default{height: 120px;}
+	.navbar-default .navbar-nav{
+	 		font-size: 12px;
+		 	}
+	.text{
+	text-align: center;padding: 0px;margin-bottom: 50px;
+}
+.nd-text h3{font-weight:bold;}
+.nd{
+	margin: 0px;
+}
+.nd1 h4{font-weight: bold;font-size:14px;}	
+}
+
+@media (max-width: 767px) {
+	 
+	.navbar-default .navbar-brand {
+  padding-left: 10px;
+}
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #056CB6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #8e44ad;
+  }
+.text{
+	text-align: center;padding: 0px;margin-bottom: 50px;
+}
+	 
+.nd-text h3{font-weight:bold;}	
+	.nd1{margin-bottom: 30px;font-size:10px;}
+.nd1 h4{font-weight: bold;padding-top: 20px;font-size:10px;}
+	.bg-trang {
+	 margin: 5px;
+}
+.bg-trang p{
+	padding-top: 10px;font-weight: bold;
+}
+	 
+}
+@media (max-width: 575px) {
+	 .navbar-default .navbar-brand{
+  padding-left: 10px;
+}  
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #056cb6;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #056cb6;
+    background-color: #ffc113;
+  }
+	.text{
+	text-align: center;padding: 0px;margin-bottom: 50px;
+}
+.nd-text h3{font-weight:bold;}
+	 
+
+}
+ 
+ 
+   
+ 
+
+ 
+
+
+
+ 
